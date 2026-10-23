@@ -29,4 +29,9 @@ vampire.he4rt is my little corner of the internet, inspired by dark Y2K, cyber-g
 
 Made with ♡ and a little midnight chaos.
 
-vampire.he4rt — somewhere after midnight.
+*Demo link*
+![https://bhoomikaa-sh.github.io/vampire-he4rt-/](https://bhoomikaa-sh.github.io/vampire-he4rt-/)
+
+*How to run locally*
+clone and run this on your computer 
+![https://github.com/bhoomikaa-sh/vampire-he4rt-.git](https://github.com/bhoomikaa-sh/vampire-he4rt-.git)
