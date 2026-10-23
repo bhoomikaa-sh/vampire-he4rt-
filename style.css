@@ -1,0 +1,66 @@
+@import
+url('https://fonts.googleapis.com/css2?family=VT323&family=Space+Mono&display=swap');
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: #0b0710;
+    color: #eee3f5;
+    font: 18px "Space Mono", monospace;
+}
+header {
+padding: 20px 7%;
+border-bottom: 1px solid #54245f;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 12px;
+}
+header b, h1, h2 {
+    font-family: "VT323", monospace;
+    color: #ff5bc9;
+}
+header b {font-size: 25px;}
+a{color: #d4a4e5; margin-left: 8px;
+text-decoration: none; font-size: 19px;}
+section { 
+    max-width: 850px;
+    margin: 65px auto;
+    padding: 0 22px;
+}
+h1 {font-size: clamp(65px, 12vw, 110px); margin: 20px 0;}
+h2 { font-size: 55px;}
+h3 {color: #e7a1df; font-size: 19px;}
+span .pink {color: #ff5bc9;}
+.window {
+    border: 1px solid #773786;
+    background: #130c1a;
+    padding: 16px;
+    margin-top: 18px;
+    box-shadow: 4px 4px #291331;
+}
+.window b {color: #ff5bc9;}
+input, select, button {
+    background: #130c1a;
+    color: white;
+    border: 1px solid #773786;
+    padding: 10px;
+    margin: 7px 5px 12px 0;
+    font: inherit;
+    font-size: 13px;
+}
+button { cursor: pointer; columns: #ff80d6;}
+button:hover { background: #35153e;}
+#card {overflow-wrap: anywhere;}
+p {
+    font-size: 18px;
+    line-height: 1.9;
+}
+footer {text-align: center; padding: 30px 10px; color: #96769f;}
+.home p, .window p, .about p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+@media (max-width: 600px) {
+    header {flex-direction: column;}
+    section {margin: 45px auto;}
+}
